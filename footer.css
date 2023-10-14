@@ -1,0 +1,28 @@
+#footer{
+    background-color: #28328c;
+    padding: 10px 0px 35px 0px;
+    font-size: 13px;
+    font-weight: normal;
+}
+#innerFooter{
+    display: flex;
+    margin: 0px 85px 0px85px;
+    justify-content: space-between;
+    color: white;
+}
+.footerUl{
+    margin: 50px 0px 0px 0px;
+    list-style-type: none;
+}
+.footerUl li{
+    letter-spacing: .5px;
+    margin: 0px 0px 7px 0px;
+}
+#footerLogo{
+    margin: 75px 0px 0px 570px;
+}
+#copyright{
+    color: #b8bbd9;
+    font-size: 14PX;
+    margin: 25px 0px 0px 540px;
+}

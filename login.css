@@ -1,0 +1,68 @@
+.loginPracto{
+    flex-shrink: 0;
+    margin: 0px 0px 100px 0px;
+}
+#login{
+    display: flex;
+    align-items: center;
+    background-color: rgb(251, 252, 253);
+    padding: 100px 0px 0px 0px;
+    margin: 80px 0px 0px 0px;
+}
+#loginImg{
+    width: 40.9%;
+    margin: 0px 0px 0px 243px;
+}
+#aboutLogin{
+    width: 425px;
+    margin-left:-230px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+#app{
+    margin: 20px 0px 0px 0px;
+}
+#getLink{
+    display: flex;
+    margin: 0%;
+}
+#countryCode{
+    width: 55px;
+    height: 47px;
+    margin: 0%;
+    border: 1px solid rgb(167, 164, 164);
+    border-radius: 2px;
+    background-color: white;
+}
+#countryCode p{
+    color: black;
+    padding: 0%;
+    font-weight: bold;
+    font-size: 14px;
+}
+#inputNumber{
+    width: 200px;
+    height: 43px;
+    border: 1px solid rgb(167, 164, 164);
+    border-radius: 2px;
+    margin: 0px 0px 0px -1px;
+    color: rgb(188, 188, 192);
+    font-size: 14px;
+}
+#sendSMS{
+    width: 122px;
+    height: 47px;
+    border: 1px solid rgb(167, 164, 164);
+    background-color: #14bef0;
+    border-radius: 2px;
+    color:white;
+    margin: 0px 0px 0px -1px;
+}
+#social{
+    display: flex;
+}
+.social{
+    width: 130px;
+    height: 40px;
+    margin: 30px 14px 0px 0px;
+}

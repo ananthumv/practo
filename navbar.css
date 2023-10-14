@@ -1,0 +1,54 @@
+body{
+  margin:0%;
+  font-family:Helvetica,Arial,sans-serif!important;
+  font-size: 15px;
+}
+#navbar{
+  border-bottom: 1px solid rgb(237, 234, 234);
+  padding: 0px 0px .4px 0px;
+}
+#navContainer {
+  display: flex;
+  height:75px; 
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(237, 234, 234);
+}
+#practoLogo{
+  margin: 0px 0px 0px 46px;
+}
+#imgPractoLogo{
+  width: 108px;
+}
+.navUl{
+  display: flex;
+  list-style-type:none;
+}
+#navLeft{
+  flex-shrink: 0;
+  font-weight: bold;
+  margin: 0px 0px 6px -125px; 
+}
+#navRight{
+  flex-shrink: 0;
+  font-weight: lighter;
+  color: rgb(86, 86, 86);
+  font-size: 14px;
+  margin: 0px 45px 2px 0px ;
+}
+#ulNavLeft li {
+  margin: 0px 0px 0px 14px;
+}
+#ulNavRight li, button{
+  margin: 0px 0px 0px 14px;
+}
+#navbtn{
+  width: 102px;
+  height: 30px;
+  border: 1px solid rgb(214, 212, 212);
+  border-radius: 3px;
+  background-color: rgb(250, 252, 252);
+  font-weight: lighter;
+  color: rgb(147, 147, 145);
+}
+

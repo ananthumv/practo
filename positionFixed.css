@@ -1,0 +1,43 @@
+#positionFixed{
+    width: 333px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 197px 166px;
+    background: linear-gradient(to right, rgb(21, 13, 113), rgb(145, 204, 255)) ;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+}
+#innerFixedGrid{
+    padding: 16px 0px 16px 16px;
+}
+#innerFixedGrid h4, p, button{
+    margin: 0%;
+    color: white;
+}
+#innerFixedGrid h4{
+    font-size: 16px;
+}
+#innerFixedGrid p{
+    font-size: 12px;
+}
+#innerFixedGrid button{
+    margin: 12px 0px 0px 0px;
+    padding: 6px 8px;
+    font-size: 10px;
+    background-color: #199FD9;
+    border-style: none;
+    border-radius: 5px;
+}
+#fixedLogo{
+    width: 80px;
+    height: 16px;
+    margin:0px 0px 12px 0px;
+}
+#fixedDocPic{
+    height: 165px;
+    border-radius: 15px;
+    margin: -15px 0px 0px -30px;
+}
+

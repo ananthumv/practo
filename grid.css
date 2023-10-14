@@ -1,0 +1,214 @@
+.gridTop{
+    display: grid;
+    grid-template-columns:200px 200px 200px 200px 200px;
+    justify-content: center;
+    column-gap: 50px;
+    margin: 50px 0px 80px 0px;
+}
+.topImg{
+    background-color: #ccd0dB;
+    width: 200px;
+    height: 170px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.topText{
+    background-color: rgb(255, 254, 255);
+    height: 118px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding: 10px 0px 0px 15px;
+    font-weight: lighter;
+    box-shadow:0px 2px 2px 2px #f6f5f5;
+}
+#imgTopOne{
+    width: 130px;  
+    margin:12px 0px 0px 35px;
+}
+#imgTopTwo{
+    width: 150px;
+    margin: 10px 0px 0px 25px;
+}
+#imgTopThree{
+    width: 160px;
+    margin: 10px 0px 0px 21px;
+}
+#imgTopFour{
+    width: 185px;
+    margin: 10px 0px 0px 19px;
+}
+#imgTopFive{
+    width: 170px;
+    margin: 10px 0px 0px 15px;
+}
+.gridHeading{
+    display: grid;
+    grid-template-columns: 1000px 200px;
+    justify-content: center;
+    align-items: center;
+}
+.gridHeading button{
+    width: 156px;
+    height: 44px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgb(75, 209, 250);
+    color: rgb(75, 209, 250);
+    background-color: rgb(255, 255, 255);
+}
+.gridMiddle{
+    display: grid;
+    grid-template-columns:180px 180px 180px 180px 180px 180px;
+    justify-content: center;
+    column-gap: 20px;
+    margin: 0px 0px 80px 0px;
+}
+.middleImg{
+    background-color: rgb(255, 254, 255);
+    width: 180px;
+    height: 136px;
+    padding: 30px 0px opx 0px;
+}
+.middleText{
+    background-color: rgb(255, 254, 255);
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+}
+.middleText h5{
+  margin: 0%;
+  color: rgb(48, 181, 230);
+  font-weight: bold;
+}
+.middleText p{
+    margin: 0%;
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+    color: rgb(54, 51, 51);
+  }
+#imgMiddleOne{
+    width: 120px;  
+    margin: 0px 0px 0px 30px;
+}
+#imgMiddleTwo{
+    width: 120px;
+    margin: 0px 0px 0px 30px;
+}
+#imgMiddleThree{
+    width: 120px;
+    margin: 0px 0px 0px 30px;
+}
+#imgMiddleFour{
+    width: 120px;
+    margin: 0px 0px 0px 30px;
+}
+#imgMiddleFive{
+    width: 120px;
+    margin: 0px 0px 0px 30px;
+}
+#imgMiddleSix{
+    width: 120px;
+    margin: 0px 0px 0px 30px;
+}
+#bottomHeading{
+    margin:0px 0px 0px 85px;
+}
+#gridBottom{
+    display: grid;
+    grid-template-columns:280px 280px 280px 280px;
+    justify-content: center;
+    column-gap: 20px;
+    margin: 0px 0px 50px 0px;
+}
+.bottomImg{
+    width: 280px;
+    height: 200px;
+}
+.bottomText{
+    width: 280px;
+    height: 70px;
+    margin: 15px 0px 0px 0px;
+}
+.bottomText h4, p{
+    margin: 0px 0px 5px 0px;
+    color: rgb(86, 81, 81);
+}
+.bottomText p{
+    margin: 0%;
+    color: rgb(106, 103, 103);
+    font-weight: lighter;
+}
+#imgBottomOne{
+    width: 280px; 
+    border-radius: 5px; 
+}
+#imgBottomTwo{
+    width: 280px;
+    border-radius: 5px;
+}
+#imgBottomThree{
+    width: 280px;
+    border-radius: 5px;
+}
+#imgBottomFour{
+    width: 280px;
+    border-radius: 5px;
+}
+.gridArticle{
+    display: grid;
+    grid-template-columns:360px 300px 300px;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 50px 0px 20px 0px;
+    border-bottom: 1px solid rgb(237, 234, 234);
+    border-top: 1px solid rgb(237, 234, 234);
+}
+#article{
+    height: 228px;
+}
+#article h2{
+    color: rgb(79, 78, 78);
+    margin: 30px 0px 10px 0px;
+}
+#article button{
+   margin: 20px 0px 0px 0px;
+   width: 150px;
+   height: 47px;
+   color: white;
+   background-color: rgb(69, 193, 242);
+   border-radius: 5px;
+   border-style: none;
+
+}
+.articleImg{
+    background-color: rgb(255, 254, 255);
+    width: 280px;
+}
+.articleText{
+    background-color: rgb(255, 254, 255);
+    margin: 10px 0px 0px 0px;
+}
+.articleText h4,h5,p{
+  margin: 0%;
+  padding: 0px 0px 10px 0px;
+  justify-content: center;
+  font-weight: lighter;
+}
+.articleText p{
+    align-items: center;
+    color: rgb(63, 60, 60);
+}
+.articleText h4{
+    font-weight: bold;
+    color: rgb(67, 66, 66);
+}
+.articleText h5{
+    color:rgb(15, 129, 144);
+}
+#articleImgOne{
+    width: 300px;
+    height: 208px;  
+}
+#articleImgTwo{
+    width: 300px;
+    height: 208px;
+}
